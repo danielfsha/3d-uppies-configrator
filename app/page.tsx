@@ -6,7 +6,9 @@ import Experience from "@/components/experience";
 export default function Home() {
   return (
     <div className="h-screen w-screen flex items-center justify-center">
-      {/* <ColorPicker /> */}
+      <div className="absolute top-20 left-4 z-20">
+        <ColorPicker />
+      </div>
       <Experience />
     </div>
   );
